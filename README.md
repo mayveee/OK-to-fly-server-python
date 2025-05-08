@@ -20,9 +20,17 @@
     {
       "name": "보조배터리",
       "description": "100Wh 초과 시 항공사 승인 필요. 위탁 금지.",
-      "access": {
-        "cabin": true,
-        "checked": false
+      "rule": {
+        "allowed_in_cabin": true,
+        "allowed_in_checked": false
+      }
+    },
+    {
+      "name": "액체류",
+      "description": "설명",
+      "rule": {
+        "allowed_in_cabin": false,
+        "allowed_in_checked": true
       }
     }
   ]
